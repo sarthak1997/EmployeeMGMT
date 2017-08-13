@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+        body {background-color:lightgrey;}
+        th   {color:blue;}
+        h1    {color:#ff3333;}
+        
+        </style>
+    </head>
+    <body>
+        <br><br>
+    <center><h1>INVALID USERNAME OR PASSWORD :(</h1></center>
+        <br><br>
+   <form method="post" action="CheckLoginUser">  
+       
+     <center>
+         
+         <div>
+             <h1>USER</h1>
+             <table border="1" style=" size:  auto">
+             <tr>
+              <th>Username</th>
+              <td><input type="text" name="userName"></td>
+            </tr>  
+           <tr> 
+             <th>Password</th>
+              <td><input type="password" name="userPass"></td> 
+           </tr> 
+             </table>
+             <table>
+        <tr> 
+           <td></td> 
+           <td><input type="submit" value="Submit">
+           <input type="reset" value="Reset"></td>    
+        </tr>   
+         </table>    
+         </div>
+     </center>
+   </form>
+        <br><br><br>
+        <form method="post" action="CheckLoginAdmin">
+            <center>
+         <div>
+             <h1>ADMIN</h1>
+             <table border="1" style=" size:  auto">
+           <tr>
+              <th>Admin ID</th>
+              <td><input type="text" name="adName"></td>  
+           </tr>   
+          <tr> 
+           <th>Admin Password</th>
+              <td><input type="password" name="adPass"></td>   
+           </tr>   
+             
+             </table>
+             <table>
+         
+        <tr> 
+           <td></td> 
+           <td><input type="submit" value="Submit">
+           <input type="reset" value="Reset"></td>    
+        </tr>   
+         </table> 
+             </div>
+     </center>    </form>
+    </body>
+</html>
